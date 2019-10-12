@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ViewController.colorBox.getter:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myCurrentColor">
+            </PersistentString>
+            <PersistentString
+               value = "myCurrentColor.getNewColor()&#10;myCurrentColor.getNewColor()&#10;myCurrentColor.getNewColor">
+            </PersistentString>
+            <PersistentString
+               value = "view.backgroundColor">
+            </PersistentString>
+            <PersistentString
+               value = "colorBox.view.backgroundColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
