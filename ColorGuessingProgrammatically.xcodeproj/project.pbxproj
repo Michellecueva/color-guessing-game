@@ -14,6 +14,8 @@
 		28466AD1234E57FF00944708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28466AD0234E57FF00944708 /* Assets.xcassets */; };
 		28466AD4234E57FF00944708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28466AD2234E57FF00944708 /* LaunchScreen.storyboard */; };
 		28466ADF234E57FF00944708 /* ColorGuessingProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28466ADE234E57FF00944708 /* ColorGuessingProgrammaticallyTests.swift */; };
+		28466AEA234E881600944708 /* ColorGuessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28466AE9234E881600944708 /* ColorGuessing.swift */; };
+		28466AEC234F869900944708 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28466AEB234F869900944708 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		28466ADA234E57FF00944708 /* ColorGuessingProgrammaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingProgrammaticallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28466ADE234E57FF00944708 /* ColorGuessingProgrammaticallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingProgrammaticallyTests.swift; sourceTree = "<group>"; };
 		28466AE0234E57FF00944708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28466AE9234E881600944708 /* ColorGuessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessing.swift; sourceTree = "<group>"; };
+		28466AEB234F869900944708 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,8 @@
 			children = (
 				28466AC7234E57FA00944708 /* AppDelegate.swift */,
 				28466AC9234E57FA00944708 /* SceneDelegate.swift */,
-				28466ACB234E57FA00944708 /* ViewController.swift */,
+				28466AEE234F86D100944708 /* Controller */,
+				28466AED234F86BC00944708 /* Models */,
 				28466ACD234E57FA00944708 /* Main.storyboard */,
 				28466AD0234E57FF00944708 /* Assets.xcassets */,
 				28466AD2234E57FF00944708 /* LaunchScreen.storyboard */,
@@ -97,6 +102,23 @@
 				28466AE0234E57FF00944708 /* Info.plist */,
 			);
 			path = ColorGuessingProgrammaticallyTests;
+			sourceTree = "<group>";
+		};
+		28466AED234F86BC00944708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28466AEB234F869900944708 /* Counter.swift */,
+				28466AE9234E881600944708 /* ColorGuessing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28466AEE234F86D100944708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28466ACB234E57FA00944708 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28466AEC234F869900944708 /* Counter.swift in Sources */,
 				28466ACC234E57FA00944708 /* ViewController.swift in Sources */,
 				28466AC8234E57FA00944708 /* AppDelegate.swift in Sources */,
+				28466AEA234E881600944708 /* ColorGuessing.swift in Sources */,
 				28466ACA234E57FA00944708 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
